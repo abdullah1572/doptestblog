@@ -98,7 +98,7 @@ const Bannerdetail = () => {
         console.log("asdasdas")
         const tweetUrl = `https://twitter.com/intent/tweet?url=${encodeURIComponent(linkUser)}&text=${encodeURIComponent(correcturl4)}`;
         window.open(tweetUrl, '_blank');
-        // clickApi('copyTwitter')
+        
     }
     const wahtsapp = async () => {
         const whatsappUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(`${correcturl4} ${linkUser}`)}`;
