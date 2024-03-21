@@ -103,7 +103,7 @@ const Bannerdetail = () => {
     const wahtsapp = async () => {
         const whatsappUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(`${correcturl4} ${linkUser}`)}`;
         window.open(whatsappUrl, '_blank');
-        // clickApi('copyWhatsapp')
+        
     }
     const shareWhatsApp = () => {
         if (!press) return; // Check if blog post data is available
