@@ -53,13 +53,25 @@ export default function App({ Component, pageProps }) {
       {connectors &&
         <Web3ReactProvider connectors={connectors}>
           <Head>
+            <meta name="DOP - Abdullah"
+              content="DOP empowers users by providing complete control over their data." />
+            <meta property="og:title" content="DOP - Data Ownership Protocol" />
+            <meta property="og:description" content="DOP empowers users by providing complete control over their data." />
+            <meta property="og:URL"
+              content="https://res.cloudinary.com/drt6vurtt/image/upload/v1690900239/tomiimages/link-image_xfvzri.png" />
+            <meta property="og:image"
+              content="https://res.cloudinary.com/drt6vurtt/image/upload/v1690900239/tomiimages/link-image_xfvzri.png" />
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" />
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+            <title>DOP - Abdullah</title>
+
+
           </Head>
           <Component {...pageProps} />
           <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></Script>
           <Script src="https://unpkg.com/react/umd/react.development.js"></Script>
           <Script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></Script>
+          
         </Web3ReactProvider>
       }
     </Provider>
