@@ -50,8 +50,8 @@ const Banner = () => {
           <div className="row mt-5">
             {press?.map((card, index) => (
               // <div key={index}>
-              <div  className="col-xl-4 col-12 m-auto padd-sm mb-5">
-                <Link key={index} href={`/bannerdetail/?id=${card.slug}`}>
+              <div key={index} className="col-xl-4 col-12 m-auto padd-sm mb-5">
+                <Link  href={`/bannerdetail/?id=${card.slug}`}>
              
                     <img src={card?.uagb_featured_image_src?.full[0]} alt="img" className='imghere' />
                     <h2 className='asdasdghasd'>{card?.title.rendered}</h2>
